@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  cleanUrls: true,
   title: "LilyPortfolio",
   base: "/LilyPortfolio/",
   description: "Hi there, here is my portfolio. Enjoy!",
