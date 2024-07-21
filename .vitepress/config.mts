@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "LilyPortfolio",
+  base: "/LilyPortfolio/",
   description: "Hi there, here is my portfolio. Enjoy!",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
